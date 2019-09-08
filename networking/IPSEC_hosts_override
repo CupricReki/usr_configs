@@ -1,0 +1,22 @@
+127.0.0.1	localhost
+127.0.1.1	cncupric
+::1	localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.0.0.2 esxi
+10.0.0.2 esxi.lan
+10.0.0.3 freenas
+10.0.0.3 freenas.lan
+10.0.0.4 openflixr
+10.0.0.4 openflixr.lan
+10.0.0.5 titan-esxi
+10.0.0.5 titan-esxi.lan
+10.0.0.6 solar
+10.0.0.6 solar.lan
+#10.0.0.7 arlo
+#10.0.0.7 arlo.lan
+10.0.0.8 titan-idrac
+10.0.0.8 titan-idrac.lan
+10.0.0.9 cnc
+10.0.0.9 cnc.lan
