@@ -1,0 +1,30 @@
+host heaven 
+	hostname heavensgate.lan
+	user cupric
+	port 6999
+	ForwardX11 no
+	LogLevel ERROR
+
+host cnc
+	hostname cnc.lan
+	user cupric
+	port 22
+
+host skynet
+	hostname skynet-server.lan
+	user cupric
+	port 22
+
+host openflixr
+	hostname openflixr.lan
+	user cupric
+	port 22
+
+host graylog
+	hostname graylog.lan
+	user ubuntu
+	port 22
+
+Host *
+	RemoteForward 52698 127.0.0.1:52698
+	ForwardX11 yes
